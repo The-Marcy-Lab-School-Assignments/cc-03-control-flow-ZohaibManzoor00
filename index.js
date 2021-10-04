@@ -37,13 +37,13 @@ const betweenFiveAndTwenty = (int) => {
 //console.log(betweenFiveAndTwenty(30))
 
 //5  
-function isAllLowerCase (string){
+const isAllLowerCase = (string) => {
     const lowercase = string.toLowerCase();
     if(lowercase === string){
         return true
         } else {
             return false;
         }
-    }
+}    
 
-console.log('Hello')
+//console.log(isAllLowerCase('hello'))
